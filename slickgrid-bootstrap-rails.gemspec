@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Rails 3.x integration of SlickGrid with Bootstrap}
   gem.homepage      = "http://github.com/akiatoji/slickgrid-bootstrap-rails"
 
-  gem.add_dependency  "railties", "~> 3.0"
+  gem.add_dependency  "railties", "~> 4.0"
   gem.add_dependency  "jquery-dragdrop-rails"
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
