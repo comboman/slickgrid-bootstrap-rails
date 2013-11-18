@@ -5,7 +5,7 @@ require 'slickgrid-bootstrap-rails/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "slickgrid-bootstrap-rails"
-  gem.version       = Slickgrid::Bootstrap::Rails::VERSION
+  gem.version       = "0.3.1.1"
   gem.authors       = ["Aki Atoji"]
   gem.email         = ["akiatoji@gmail.com"]
   gem.description   = %q{Rails 3.x integration of SlickGrid with Bootstrap}
